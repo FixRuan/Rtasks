@@ -11,14 +11,27 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Itim&display=swap"
     rel="stylesheet">
 
-  <link rel="stylesheet" href="./global.css">
-  <link rel="stylesheet" href="./login.css">
+  <link rel="stylesheet" href="./styles/global.css">
+  <link rel="stylesheet" href="./styles/login.css">
 
   <title>Login</title>
 </head>
 
 <body>
-  <h1>Hello World</h1>
+  <div class="container">
+    <div class="loginForm">
+      <img src="./assets/Logo.png" alt="">
+
+      <input type="text" class="loginInput" placeholder="Email">
+      <input type="text" class="loginInput" placeholder="Senha">
+
+      <button type="submit" class="loginButton">
+        Entrar
+      </button>
+
+      <a href="#">Realizar Cadastro</a>
+    </div>
+  </div>
 </body>
 
 </html>

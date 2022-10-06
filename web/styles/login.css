@@ -1,9 +1,73 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
-*/
-/* 
-    Created on : 05/10/2022, 19:34:47
-    Author     : Nappy
-*/
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
 
+.loginForm{
+  padding: 1rem 2rem;
+  width: 32rem;
+  min-height: 32rem;
+  display: flex;
+  align-items: center;
+  background-color: var(--gray);
+  border-radius: 16px;
+  flex-direction: column;
+}
+
+.loginForm > img{
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.loginInput{
+  width: 14rem;
+  height: 2.5rem;
+  margin-bottom: 0.875rem;
+  outline: none;
+  border-radius: 6px;
+  border: 0;
+  padding: 0.5rem;
+  background-color: var(--input-shape);
+  color: var(--white);
+}
+
+.loginInput::placeholder{
+  font-family: 'Itim', cursive;
+  color: var(--input-text);
+}
+
+.loginInput:focus{
+  border: 1px solid var(--blue);
+}
+
+.loginButton{
+  margin-top: 1rem;
+  width: 12rem;
+  height: 2.5rem;
+  background-color: var(--blue);
+  color: var(--white);
+  border-radius: 6px;
+  border: 1px solid transparent;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  transition: all 0.4s;
+}
+
+.loginButton:hover{
+  border: 1px solid var(--white);
+  opacity: 0.8;
+}
+
+.loginForm > a{
+  font-size: 0.875rem;
+  color:  var(--input-text);
+  transition: all 0.4s;
+}
+
+.loginForm > a:hover{
+  color: var(--white);
+}
