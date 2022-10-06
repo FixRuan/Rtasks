@@ -9,8 +9,9 @@
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Itim&display=swap"
           rel="stylesheet">
         <script src="https://unpkg.com/phosphor-icons"></script>
-        <link rel="stylesheet" href="./styles/global.css">
-        <link rel="stylesheet" href="./styles/home.css">
+        
+        <link rel="stylesheet" href="./styles/global.css"/>
+        <link rel="stylesheet"s href="./styles/home.css">
         <title>Home</title>
     </head>
     <body>
@@ -25,10 +26,13 @@
         <i class="ph-plus-circle"></i>
       </button>
 
-      <button class="loggoutButton btn">
-        Sair
-        <i class="ph-sign-out"></i>
-      </button>
+        <form method="post" action="HomeController">
+            <button type="submit" class="loggoutButton btn">
+                Sair
+                <i class="ph-sign-out"></i>
+            </button>
+        </form>
+      
     </div>
 
 
@@ -59,6 +63,24 @@
       </div>
         -->
         
+    <div class="task">
+        <div class="imageContainer">
+          <img src="./assets/shop.svg" alt="">
+        </div>
+
+        <span>
+          Integer urna interdum massa libero auctor neque
+          turpis turpis semper. Duis vel sed fames integer. Integer
+          urna interdum massa libero auctor neque turpis turpis
+          semper. Duis vel sed fames integer.Integer urna interdum.
+        </span>
+
+        <button class="removeTask">
+          <i class="ph-trash"></i>
+        </button>
+      </div>
+    </div>
+      
     <div class="task">
         <div class="imageContainer">
           <img src="./assets/shop.svg" alt="">

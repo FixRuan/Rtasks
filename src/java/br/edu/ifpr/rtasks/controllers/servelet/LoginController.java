@@ -65,7 +65,7 @@ public class LoginController extends HttpServlet {
                 HttpSession session = request.getSession(true);
                 session.setAttribute("authenticated", user.getEmail());
                 
-                Cookie cookie = new Cookie("keepLogged", user.getEmail());
+                Cookie cookie = new Cookie("logged", user.getEmail());
                 cookie.setMaxAge(60 * 60 * 24 * 30); //calculo referente a 30 dias
                 response.addCookie(cookie);
                 
