@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Servlet.java to edit this template
  */
-package br.edu.ifpr.rtasks.controllers;
+package br.edu.ifpr.rtasks.controllers.servelet;
 
 import java.io.IOException;
 import javax.servlet.ServletException;

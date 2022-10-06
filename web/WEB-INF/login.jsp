@@ -18,12 +18,12 @@
 </head>
 
 <body>
-  <div class="container">
+    <form action="post" action="LoginController" class="container">
     <div class="loginForm">
       <img src="./assets/Logo.png" alt="">
 
-      <input type="text" class="loginInput" placeholder="Email">
-      <input type="text" class="loginInput" placeholder="Senha">
+      <input type="text" name="email" class="loginInput" placeholder="Email">
+      <input type="text" name="password" class="loginInput" placeholder="Senha">
 
       <button type="submit" class="loginButton">
         Entrar
@@ -31,7 +31,7 @@
 
       <a href="#">Realizar Cadastro</a>
     </div>
-  </div>
+  </form>
 </body>
 
 </html>
