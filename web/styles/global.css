@@ -1,10 +1,25 @@
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --white: #FFFFFF;
+  --background: #0D0D0D;
+  --blue: #4EA8DE;
+  --purple-dark: #5E60CE;
+  --gray: #191919;
+  --gray-300: #808080;
+  --gray-400: #333333;
+  --input-shape: #202024;
+  --input-text: #6F6C71;
+  --red: #E25858;
 }
 
 body{
-    background-color: #000;
-    color: #fff;
+  background-color: var(--background);
+  color: var(--white);
+  /* font-family: 'Itim', cursive; */
+  font-family: 'Inter', sans-serif;
 }
