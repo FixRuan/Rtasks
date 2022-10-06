@@ -21,10 +21,10 @@
 
   <div class="container">
     <div class="headerButtons">
-      <button class="createTaskButton btn">
+      <a href="CreateTask" class="createTaskButton btn">
         Criar
         <i class="ph-plus-circle"></i>
-      </button>
+      </a>
 
         <form method="post" action="HomeController">
             <button type="submit" class="loggoutButton btn">

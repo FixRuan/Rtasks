@@ -1,0 +1,89 @@
+.backToHome{
+    margin-top: -1rem;
+    width: 6rem;
+}
+
+.backToHome > a{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--gray-400);
+    padding: 8px;
+    border-radius: 6px;
+    color: var(--white);
+    transition: all 0.4s;
+}
+
+.backToHome > a:hover{
+   background: var(--purple-dark);
+   opacity: 0.8;
+}
+
+form{
+    margin-top: 4rem;
+}
+
+.taskInput{
+    display: flex;
+    width: 24rem;
+    height: 8rem;
+    border-radius: 8px;
+    background-color: var(--gray-500);
+    border: 1px solid transparent;
+    padding: 6px;
+    color: var(--white);
+    font-size: 1.1rem;
+    transition: all 0.4s;
+    outline: 0;
+    margin-bottom: 1rem;
+}
+
+.taskInput::placeholder{
+    color: var(--input-text);
+    font-family: 'Itim', cursive;
+    font-size: 1.4rem;
+}
+
+.taskInput:focus{
+    border: 1px solid var(--blue);
+}
+
+.ImageInput > label{
+  background-color: var(--gray-500);
+  width: 16rem;
+  height: 2.4rem;
+  border-radius: 6px;
+  padding: 6px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+}
+
+.ImageInput > label > i{
+    font-size: 1.2rem;
+}
+
+#image{
+    display: none;
+}
+
+.addTask{
+    padding: 12px 32px;
+    background-color: var(--blue);
+    border-radius: 6px;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.addTask:hover{
+    border: 1px solid var(--white);
+    opacity: 0.8;
+}
+
