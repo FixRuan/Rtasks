@@ -23,7 +23,7 @@
       <img src="./assets/Logo.png" alt="">
 
       <input type="text" name="email" class="loginInput" placeholder="Email">
-      <input type="text" name="password" class="loginInput" placeholder="Senha">
+      <input type="password" name="password" class="loginInput" placeholder="Senha">
 
       <button type="submit" class="loginButton">
         Entrar

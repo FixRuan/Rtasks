@@ -6,6 +6,7 @@ import br.edu.ifpr.rtasks.controllers.entities.User;
 import java.sql.SQLException;
 
 public class UserModel {
+    UserDAO dao = new UserDAO();
     
     public boolean confirmPassword(String password, String confirmPassword){
         return password.equals(confirmPassword);
@@ -16,4 +17,9 @@ public class UserModel {
         dao.register(u);
         return "Cadastro realizado";
     };
+    
+    public User findUserByEmail(String email) throws SQLException {
+        User u = dao.findUserByEmail(email);
+        return u;
+    }
 }
