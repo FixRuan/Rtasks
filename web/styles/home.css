@@ -64,6 +64,11 @@ body{
   border:  1px solid var(--white);
 }
 
+.taskSection{
+  border-bottom: 1px solid var(--gray-300);
+  padding-bottom: 1rem;
+}
+
 .info{
   display: flex;
   align-items: center;
@@ -116,4 +121,33 @@ body{
 
 completedQuantity > p{
   font-size: 0.875rem;
+}
+
+.tasks{
+  margin-top: 2rem;
+}
+
+.withoutTask{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.withoutTask i{
+  font-size: 6rem;
+  color: var(--gray-300);
+  margin-bottom: 1.2rem;
+}
+
+.withoutTask > span{
+  display: block;
+  margin-bottom: 2px;
+  font-weight: bold;
+  color: var(--gray-300);
+}
+
+.withoutTask > p{
+  font-weight: 400;
+  color: var(--gray-300);
 }

@@ -49,6 +49,14 @@
         </div>
       </div>
     </section>
+      
+    <div class="tasks">
+      <div class="withoutTask">
+        <i class="ph-clipboard-text"></i>
+        <span>Você ainda não tem tarefas cadastradas</span>
+        <p>Crie tarefas e organize seus itens a fazer</p>
+      </div>
+    </div>
   </div>
 </body>
 </html>
