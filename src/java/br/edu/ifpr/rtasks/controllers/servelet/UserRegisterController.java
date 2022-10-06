@@ -5,7 +5,11 @@
 package br.edu.ifpr.rtasks.controllers.servelet;
 
 import br.edu.ifpr.rtasks.controllers.entities.User;
+import br.edu.ifpr.rtasks.controllers.models.UserModel;
 import java.io.IOException;
+import java.sql.SQLException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -34,9 +38,17 @@ public class UserRegisterController extends HttpServlet {
         String password = req.getParameter("password");
         String confirmPassword = req.getParameter("confirmPassword");
         
-        User u = new User(name, email, password, confirmPassword);
+        User u = new User(name, email, password);
+        UserModel userModel = new UserModel();
+        
+        try {
+            if(userModel.confirmPassword(password, confirmPassword)){
+                userModel.addUser(u);
+                resp.sendRedirect("LoginController");
+            }
+        } catch (SQLException ex) {
+            System.err.println(ex);
+            Logger.getLogger(UserRegisterController.class.getName()).log(Level.SEVERE, null, ex); 
+        } 
     }
-    
-    
-    
 }

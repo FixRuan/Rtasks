@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <form method="post" action="UserRegisterController" class="container">
+    <form action="UserRegisterController" method="post" class="container">
     <div class="loginForm" style="position: relative">
         <div class="backContainer">
             <a href="LoginController" class="backButton">
@@ -32,9 +32,10 @@
        
       <img src="./assets/Logo.png" alt="">
 
+      <input type="text" name="name" class="loginInput" placeholder="Nome">
       <input type="text" name="email" class="loginInput" placeholder="Email">
-      <input type="text" name="password" class="loginInput" placeholder="Senha">
-      <input type="text" name="confirmPassword" class="loginInput" placeholder="Confirmar Senha">
+      <input type="password" name="password" class="loginInput" placeholder="Senha">
+      <input type="password" name="confirmPassword" class="loginInput" placeholder="Confirmar Senha">
 
       <button type="submit" class="loginButton">
         Cadastrar
