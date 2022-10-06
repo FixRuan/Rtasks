@@ -1,0 +1,119 @@
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 2rem;
+  background-color: var(--background);
+}
+
+body{
+  background-color: var(--gray);
+}
+
+.container{
+  margin: 0 auto;
+  max-width: 40rem;
+}
+
+.headerButtons{
+  width: 100%;
+  margin-top: -1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+.createTaskButton{
+  background-color: var(--blue);
+  height: 2.6rem;
+  color: var(--white);
+  padding: 0 2.6rem;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  transition: all 0.4s;
+}
+
+.loggoutButton{
+  background-color: var(--red);
+  height: 2.6rem;
+  color: var(--white);
+  padding: 0 1rem;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  transition: all 0.4s;
+}
+
+.btn:hover{
+  opacity: 0.8;
+  border:  1px solid var(--white);
+}
+
+.info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.createdTasks{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.createdTasks > span{
+  font-weight: bold;
+  color: var(--blue);
+}
+
+.createdQuantity{
+  padding: 2px 8px;
+  background-color: var(--gray-400);
+  border-radius: 99999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.createdQuantity > p{
+  font-size: 0.875rem;
+}
+
+.completedTasks{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.completedTasks > span{
+  font-weight: bold;
+  color: var(--purple-dark);
+}
+
+.completedQuantity{
+  padding: 2px 8px;
+  background-color: var(--gray-400);
+  border-radius: 99999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+completedQuantity > p{
+  font-size: 0.875rem;
+}
