@@ -1,0 +1,16 @@
+.backContainer{
+   position: absolute;
+   top: 12px;
+   left: 12px;
+}
+
+.backButton{
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    transition: color 0.4s;
+}
+
+.backButton:hover{
+    color: var(--blue);
+}
