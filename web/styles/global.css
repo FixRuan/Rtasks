@@ -12,6 +12,8 @@
   --gray: #191919;
   --gray-300: #808080;
   --gray-400: #333333;
+  --gray-600: #1A1A1A;
+  --gray-500: #262626;
   --input-shape: #202024;
   --input-text: #6F6C71;
   --red: #E25858;
@@ -26,4 +28,5 @@ body{
 
 a{
   text-decoration: none;
+  color: white;
 }

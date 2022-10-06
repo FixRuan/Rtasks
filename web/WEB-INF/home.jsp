@@ -51,10 +51,29 @@
     </section>
       
     <div class="tasks">
+        <!-- 
       <div class="withoutTask">
         <i class="ph-clipboard-text"></i>
         <span>Você ainda não tem tarefas cadastradas</span>
         <p>Crie tarefas e organize seus itens a fazer</p>
+      </div>
+        -->
+        
+    <div class="task">
+        <div class="imageContainer">
+          <img src="./assets/shop.svg" alt="">
+        </div>
+
+        <span>
+          Integer urna interdum massa libero auctor neque
+          turpis turpis semper. Duis vel sed fames integer. Integer
+          urna interdum massa libero auctor neque turpis turpis
+          semper. Duis vel sed fames integer.Integer urna interdum.
+        </span>
+
+        <button class="removeTask">
+          <i class="ph-trash"></i>
+        </button>
       </div>
     </div>
   </div>
