@@ -27,8 +27,9 @@
                 </a>
             </div>
             
-            <form>
+            <form method="post" action="TaskRegisterController" enctype="multipart/form-data">
                 <textarea name="task" placeholder="Tarefa" class="taskInput"></textarea>
+                
                 <div class="ImageInput">
                     <label for="image">
                         Carregar Imagem

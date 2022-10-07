@@ -172,10 +172,19 @@ completedQuantity > p{
   padding: 0.8rem;
   background-color: var(--gray-400);
   border-radius: 6px;
+  position: relative;
 }
 
 .imageContainer > img{
   width: 4rem;
+}
+
+.taskCheckbox{
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    display: none;
 }
 
 .removeTask{
@@ -203,4 +212,9 @@ completedQuantity > p{
   font-size: 0.875rem;
   text-align: justify;
   line-height: 1.2rem;
+}
+
+.checked{
+   text-decoration: line-through;
+   color: var(--gray-400)
 }
