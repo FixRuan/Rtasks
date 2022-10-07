@@ -1,16 +1,33 @@
 package br.edu.ifpr.rtasks.controllers.entities;
 
 public class Task {
+    private int id;
     private String name;
     private int user_id;
     private byte[] image_content;
     private String image_type;
 
-    public Task(String name, int user_id, byte[] image_content, String image_type) {
+    public Task(int id, String name, int user_id, byte[] image_content, String image_type) {
+        this.id = id;
         this.name = name;
         this.user_id = user_id;
         this.image_content = image_content;
         this.image_type = image_type;
+    }
+    
+     public Task(String name, int user_id, byte[] image_content, String image_type) {
+        this.name = name;
+        this.user_id = user_id;
+        this.image_content = image_content;
+        this.image_type = image_type;
+    }
+     
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getName() {
@@ -44,4 +61,6 @@ public class Task {
     public void setImage_type(String image_type) {
         this.image_type = image_type;
     }
+
+    
 }

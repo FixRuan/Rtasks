@@ -29,7 +29,7 @@ public class TaskRegisterController extends HttpServlet {
     
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.setCharacterEncoding("UTF-8");
+        req.setCharacterEncoding("UTF-8");   
         Cookie[] cookies = req.getCookies();
         String email = null;
         

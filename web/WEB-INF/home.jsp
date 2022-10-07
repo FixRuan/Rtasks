@@ -21,7 +21,7 @@
 
   <div class="container">
     <div class="headerButtons">
-      <a href="CreateTask" class="createTaskButton btn">
+      <a href="TaskRegisterController" class="createTaskButton btn">
         Criar
         <i class="ph-plus-circle"></i>
       </a>
@@ -68,7 +68,7 @@
               <img src="./assets/shop.svg" alt="">
               <input class="taskCheckbox" name="task" id="task1" type="checkbox"/>
             </div>
-
+            
             <span>
               Integer urna interdum massa libero auctor neque
               turpis turpis semper. Duis vel sed fames integer. Integer
