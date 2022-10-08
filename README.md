@@ -1,6 +1,12 @@
 # Rtasks
 Todo tasks with java web
 
+- [x] Cadastro de usuários
+- [x] Login de usuários
+- [x] Loggout de usuários
+- [x] Cadastro de tarefas
+- [ ] Listagem de tarefas
+- [ ] remoção de tarefas
 
 ## Tables
 ```
