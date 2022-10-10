@@ -8,6 +8,9 @@ Todo tasks with java web
 - [ ] Listagem de tarefas
 - [ ] remoção de tarefas
 
+## Design da aplicação
+- Clique [aqui](https://www.figma.com/file/dgpER6x7FBWYfpBISgb5SV/ToDo-List?node-id=0%3A1) para acessar o layout no Figma
+
 ## Tables
 ```
 CREATE TABLE "USERS" (
