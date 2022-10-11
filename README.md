@@ -1,6 +1,9 @@
 # Rtasks
 Todo tasks with java web
 
+## Capa
+<img src="./Capa.png" /> <br/> <br/>
+
 - [x] Cadastro de usuários
 - [x] Login de usuários
 - [x] Loggout de usuários
