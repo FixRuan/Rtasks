@@ -26,7 +26,7 @@ public class TaskDAO {
     }
     
     public ArrayList<Task> listAll(int id)throws SQLException{
-        String sql = "SELECT ID, USER_ID, NAME,IMAGE_TYPE, IMAGE_CONTENT FROM TASKS WHERE USER_ID = "+id;
+     String sql = "SELECT ID, USER_ID, NAME,IMAGE_TYPE, IMAGE_CONTENT FROM TASKS WHERE USER_ID = "+id;
 
      Connection connection = (Connection) new ConnectionFactory().getConnection();
      PreparedStatement stmt = connection.prepareStatement(sql);

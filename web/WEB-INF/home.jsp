@@ -62,26 +62,27 @@
         <p>Crie tarefas e organize seus itens a fazer</p>
       </div>
         -->
-    <label for="task1">
+    
         <div class="task">
-            <div class="imageContainer">
-              <img src="./assets/shop.svg" alt="">
-              <input class="taskCheckbox" name="task" id="task1" type="checkbox"/>
-            </div>
-            
-            <span>
-              Integer urna interdum massa libero auctor neque
-              turpis turpis semper. Duis vel sed fames integer. Integer
-              urna interdum massa libero auctor neque turpis turpis
-              semper. Duis vel sed fames integer.Integer urna interdum.
-            </span>
+            <a href="#">
+                <div class="imageContainer">
+                  <img src="./assets/shop.svg" alt="">
+                </div>
+
+                <span>
+                  Integer urna interdum massa libero auctor neque
+                  turpis turpis semper. Duis vel sed fames integer. Integer
+                  urna interdum massa libero auctor neque turpis turpis
+                  semper. Duis vel sed fames integer.Integer urna interdum.
+                </span>
+            </a>
 
             <button class="removeTask">
               <i class="ph-trash"></i>
             </button>
           </div>
         </div>
-    </label>
+    
       
   </div>
 </body>
