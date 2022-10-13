@@ -9,6 +9,7 @@ Todo tasks with java web
 - [x] Loggout de usuários
 - [x] Cadastro de tarefas
 - [ ] Listagem de tarefas
+- [ ] Atualização de tarefas
 - [ ] remoção de tarefas
 
 ## Design da aplicação
